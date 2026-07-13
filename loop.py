@@ -12,12 +12,11 @@ Write it out, look at your notes to make sure you have all 3 golden rules in pla
  and paste it here when you're ready!
  '''
 
-number = 1
 
-while number <= 5: 
+number  = 1
+
+while number <= 5:
     print(number)
 
-    number = number + 1
-
-print("loop is finished")
-
+    number = number + 1 
+print('loop is finished')
