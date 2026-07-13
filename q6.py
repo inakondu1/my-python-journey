@@ -14,11 +14,13 @@ We use the modulo operator (%), which finds the remainder of a division.
 Your Goal:
 Write a program that prints this exact output:
 '''
-number = 0
+number = 1
+
 while number <= 6:
-    number = number + 1
     if number % 2 == 0:
         print(number, 'even number')
-
-else:
-    print(number, 'odd number')
+    else:
+        print(number, 'odd number')
+    
+    # We add 1 at the very end of each turn
+    number = number + 1
