@@ -46,5 +46,3 @@ while user_guess != password:
 
 
 
-
-
