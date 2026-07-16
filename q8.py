@@ -32,17 +32,12 @@ Your clues & structure:
 
 password = 'python123'
 
-user_guess = ""
+user = ""
 
-while user_guess != password:
-    user_guess = input("Enter the password: ")
-    
+while user != password:
+    user = (input('enter your pasword: '))
 
-    if user_guess == password:
-    
-        print('access granted')
-    else:
-        print('invalid password: try again. ')
-
+    if user == password:
+        print('correct')
 
 
